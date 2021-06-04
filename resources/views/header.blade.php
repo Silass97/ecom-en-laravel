@@ -24,7 +24,7 @@ $total= ProductController::cartItem();
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">acceuil </a></li>
-        <li class=""><a href="#">orders</a></li>
+        <li class=""><a href="/myorders">orders</a></li>
       </ul>
       <form class="navbar-form navbar-left">
         <div class="form-group">
@@ -44,6 +44,7 @@ $total= ProductController::cartItem();
          </li>
          @else
          <li><a href="/login">Login</a></li>
+         <li><a href="/register">Register</a></li>
          @endif
       </ul>
     </div><!-- /.navbar-collapse -->
